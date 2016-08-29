@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RxExamples.iml" filepath="$PROJECT_DIR$/.idea/modules/RxExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RxExamples_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RxExamples_main.iml" group="RxExamples" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RxExamples_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RxExamples_test.iml" group="RxExamples" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example-flatmap/example-flatmap.iml" filepath="$PROJECT_DIR$/.idea/modules/example-flatmap/example-flatmap.iml" group="example-flatmap" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example-flatmap/example-flatmap_main.iml" filepath="$PROJECT_DIR$/.idea/modules/example-flatmap/example-flatmap_main.iml" group="example-flatmap" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example-flatmap/example-flatmap_test.iml" filepath="$PROJECT_DIR$/.idea/modules/example-flatmap/example-flatmap_test.iml" group="example-flatmap" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example-map/example-map.iml" filepath="$PROJECT_DIR$/.idea/modules/example-map/example-map.iml" group="example-map" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example-map/example-map_main.iml" filepath="$PROJECT_DIR$/.idea/modules/example-map/example-map_main.iml" group="example-map" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example-map/example-map_test.iml" filepath="$PROJECT_DIR$/.idea/modules/example-map/example-map_test.iml" group="example-map" />
+    </modules>
+  </component>
+</project>

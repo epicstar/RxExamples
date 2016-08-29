@@ -1,0 +1,4 @@
+rootProject.name = 'RxExamples'
+include 'example-map'
+include 'example-flatmap'
+
