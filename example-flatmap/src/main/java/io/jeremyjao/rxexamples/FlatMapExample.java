@@ -27,13 +27,19 @@ public class FlatMapExample {
 
         //noinspection Convert2MethodRef
         Observer<String> obs = Observers.create(
-            result -> System.out.println("Result: " + result),
+            result -> System.out.println(result),
             error -> error.printStackTrace(),
             () -> System.out.println("Complete... exiting explicitly")
         );
 
         words.subscribe(obs);
         (new Scanner(System.in)).nextLine();
+
+        //oops...let's fix it
+        phrases.concatMap(FlatMapExample::splitDelay)
+               .subscribe(obs);
+        (new Scanner(System.in)).nextLine();
+
     }
 
     /**
