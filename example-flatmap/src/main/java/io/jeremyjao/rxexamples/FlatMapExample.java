@@ -35,10 +35,11 @@ public class FlatMapExample {
         words.subscribe(obs);
         (new Scanner(System.in)).nextLine();
 
-        //oops...let's fix it
+        // region concatMap code
         phrases.concatMap(FlatMapExample::splitDelay)
                .subscribe(obs);
         (new Scanner(System.in)).nextLine();
+        // endregion
 
     }
 
