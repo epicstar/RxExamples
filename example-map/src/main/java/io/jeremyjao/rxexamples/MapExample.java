@@ -11,7 +11,7 @@ import rx.Observer;
  */
 public class MapExample {
     public static void main(String[] args) {
-        Observable.from(new Integer[]{1, 2, 3})
+        Observable.just(1, 2, 3)
                 .map(i -> {
                     // do not do print statements in map! Only done for tutorial reasons!
                     System.out.println("in map function: " + i);
